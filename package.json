@@ -1,0 +1,25 @@
+{
+  "name": "themer-windows-terminal",
+  "version": "1.0.0",
+  "description": "Themer generator for Windows Terminal (Preview)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenverg/themer-windows-terminal.git"
+  },
+  "keywords": [
+    "themer"
+  ],
+  "author": "Ruben Vergani <me@rubenverg.com> (rubenverg.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubenverg/themer-windows-terminal/issues"
+  },
+  "homepage": "https://github.com/rubenverg/themer-windows-terminal#readme",
+  "dependencies": {
+    "themer": "^3.3.1"
+  }
+}
