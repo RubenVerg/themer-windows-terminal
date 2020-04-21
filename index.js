@@ -41,9 +41,9 @@ module.exports.render = function (colors, options) {
 		return `#${r.toString(16)}${g.toString(16)}${b.toString(16)}`;
 	}
 	const darken = s => {
-		let r = +(s.substr(1, 2));
-		let g = +(s.substr(3, 2));
-		let b = +(s.substr(5, 2));
+		let r = parseInt(s.substr(1, 2), 16);
+		let g = parseInt(s.substr(3, 2), 16);
+		let b = parseInt(s.substr(5, 2), 16);
 		r -= 0x10;
 		g -= 0x10;
 		b -= 0x10;
